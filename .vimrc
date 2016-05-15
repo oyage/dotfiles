@@ -69,4 +69,8 @@ imap { {}<left>
 
 " 2回escを押したら検索のハイライトやめる
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+" テキスト挿入中の自動折り返しを日本語に対応させる
+set formatoptions+=mM
+" バックアップを作成しない
+set nobackup
 " }}}
